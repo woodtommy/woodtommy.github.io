@@ -7,7 +7,7 @@
 # server process.
 
 # theme settings
-theme: "lone-wolf-theme"
+theme: "珠海F5足球俱乐部"
 remote_theme: # "manid2/lone-wolf-theme"
 bootswatch_theme: "united" # cerulean, spacelab, united
 
@@ -15,7 +15,7 @@ bootswatch_theme: "united" # cerulean, spacelab, united
 lang: "en_US"
 title: "Lone Wolf Theme"
 description: "A simple bootstrap based jekyll theme."
-url: # site url e.g. "https://manid2.github.io"
+url: # site url e.g. "https://woodtommy.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 author: mani_d2
 twitter:
@@ -23,12 +23,6 @@ twitter:
   card: summary
 logo: assets/images/lwt-logo-wolf-v2.png # PNG is SEO friendly
 # use below when there are social links for site
-#social:
-#  name: Mani Kumar
-#  links:
-#    - https://twitter.com/mani_d2
-#    - https://www.linkedin.com/in/manid2/
-#    - https://github.com/manid2
 # site verifications,
 webmaster_verifications:
   google: # 1234
