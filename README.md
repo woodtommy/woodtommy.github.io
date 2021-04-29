@@ -1,35 +1,65 @@
-# NexT
+# [Lone Wolf Theme Jekyll][1]
 
-> 精于心，简于形
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/manid2/lone-wolf-theme/blob/master/LICENSE)
+[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.8-blue.svg)][jekyll]
+[![Ruby gem](https://badge.fury.io/rb/lone-wolf-theme.svg)](https://rubygems.org/gems/lone-wolf-theme/)
+[![Build Status](https://travis-ci.com/manid2/lone-wolf-theme.svg?branch=master)](https://travis-ci.com/manid2/lone-wolf-theme)
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+A simple [bootstrap][bs4] based jekyll theme.
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+It uses
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- [github-pages compatible gems][gh-gems]
+- [bootswatch wrappers][bootswatch]
+- [animate.css][ani-css].
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+## Who uses it
 
+- [Lone wolf theme docs][1]
+- [Me, manid2][2]
 
-## 浏览器支持 Browser support
+## Screenshots
 
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+![Lone wolf theme screenshot][lwt_ss_all_img]
 
+<!-- Images -->
+[lwt_ss_all_img]: lwt_screenshots/lwt_ss_all_in_one.png "Lone wolf theme screenshot"
 
-## 贡献 Contributing
+## Installation
 
-欢迎提交问题与需求，修复代码。
+### Using remote theme
 
+Easiest way to use the theme if you dont want to make changes to the theme's
+code.
 
-## 开发 Development
+- Add `remote_theme    : "manid2/lone-wolf-theme"` to your `_config.yml` file.
 
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
+### By forking the theme repository
 
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
+If you want to make changes to the code and to truly own the site.
+Follow the blog on [smashing magazine][sm-gh-pages] to learn about this method.
 
+### As a ruby gem
 
-## 捐赠
+When you want to host the site on any server other than the github pages
+and also to make use of plenty of jekyll plugins.
 
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
+- Add `gem "lone-wolf-theme"` to your `Gemfile`.
+- Update bundled gems by using `bundle` command.
+- Add `theme    : "lone-wolf-theme"` to your `_config.yml`.
 
-![支付宝扫码捐赠](http://7lryc0.com1.z0.glb.clouddn.com/a6x049034plyvjm1rvn4h28%20%281%29.png)
+## Contribution
+
+Use the link to learn how to [contribute][3] to LWT.
+
+<!-- Links in the post -->
+[jekyll]: https://jekyllrb.com/
+[bs4]: https://getbootstrap.com/
+[bootswatch]: https://bootswatch.com/
+[gh-gems]: https://pages.github.com/versions/
+[ani-css]: https://daneden.github.io/animate.css/
+[sm-gh-pages]: https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
+
+[1]: https://manid2.github.io/lone-wolf-theme/
+[2]: https://manid2.github.io/
+[3]: https://manid2.github.io/lone-wolf-theme/contribute/
